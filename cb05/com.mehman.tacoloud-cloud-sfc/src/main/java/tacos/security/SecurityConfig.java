@@ -46,8 +46,6 @@ public class SecurityConfig {
         .mvcMatchers("/design", "/orders").hasRole("USER")
         .anyRequest().permitAll()
 
-            .and().oauth2Login()
-
       .and()
         .formLogin()
           .loginPage("/login")

@@ -40,10 +40,7 @@ public class DesignTacoController {
   private UserRepository userRepo;
 
   @Autowired
-  public DesignTacoController(
-        IngredientRepository ingredientRepo,
-        TacoRepository tacoRepo,
-        UserRepository userRepo) {
+  public DesignTacoController(IngredientRepository ingredientRepo,TacoRepository tacoRepo,UserRepository userRepo) {
     this.ingredientRepo = ingredientRepo;
     this.tacoRepo = tacoRepo;
     this.userRepo = userRepo;
