@@ -1,0 +1,38 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
+                             http://maven.apache.org/maven-v4_0_0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>sia</groupId>
+    <artifactId>taco-cloud-parent</artifactId>
+    <packaging>pom</packaging>
+    <dependencies>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-context</artifactId>
+            <version>5.2.21.RELEASE</version>
+        </dependency>
+    </dependencies>
+    <version>6.0</version>
+    <name>Taco Cloud Parent Project</name>
+
+    <modules>
+        <module>cb01/com.mehman.tacoloud</module>
+        <module>cb02/com.mehman.tacoloud</module>
+        <module>cb03/com.mehman.tacoloud-jdbctemplate</module>
+        <module>cb03/com.mehman.tacoloud-sd-jpa</module>
+        <module>cb03/com.mehman.tacoloud-sd-jdbc</module>
+        <module>cb04/com.mehman.tacoloud-sd-cassandra</module>
+        <module>cb04/com.mehman.tacoloud-sd-mongodb</module>
+        <module>cb05/com.mehman.tacoloud-cloud</module>
+        <module>cb05/com.mehman.tacoloud-cloud-sfc</module>
+        <module>cb06/com.mehman.tacoloud</module>
+        <module>cb07</module>
+        <module>cb08/auth-server</module>
+        <module>cb08/com.mehman.tacoloud</module>
+        <module>cb08/com.mehman.tacoloud-admin</module>
+        <module>cb09</module>
+    </modules>
+
+</project>
